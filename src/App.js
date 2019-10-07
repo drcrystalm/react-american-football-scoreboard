@@ -54,14 +54,6 @@ function App() {
                         onClick={() => setAwayScore(awayScore + 3)}>
                         Away Field Goal
                     </button>
-
-                    {/* Made a button w onClick for Quarter, but will need to work on live rendering and styling */}
-
-                    <button
-                        className='quarterCount'
-                        onClick={() => setQuarter(quarter + 1)}>
-                        Quarter
-                    </button>
                 </div>
             </section>
         </div>

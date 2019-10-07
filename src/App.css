@@ -120,4 +120,9 @@
 .quarterCount {
     margin: 1rem;
     border-radius: 4px;
+    background-color: purple;
+}
+.quarterCount {
+    background-color: purple;
+    border-radius: 10px;
 }
