@@ -7,7 +7,7 @@ function App() {
     //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
     const [homeScore, setHomeScore] = useState(0)
     const [awayScore, setAwayScore] = useState(0)
-    // const [quarter, setQuarter] = useState(1) Made for quarter button
+    const [quarter, setQuarter] = useState(1)
     // Give these better names (they were originally set at value and setValue), and decide whether you want to pass an initial score into the state hook as the initialValue
 
     return (
@@ -57,11 +57,11 @@ function App() {
 
                     {/* Made a button w onClick for Quarter, but will need to work on live rendering and styling */}
 
-                    {/* <button
+                    <button
                         className='quarterCount'
                         onClick={() => setQuarter(quarter + 1)}>
                         Quarter
-                    </button> */}
+                    </button>
                 </div>
             </section>
         </div>
